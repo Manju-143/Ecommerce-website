@@ -38,7 +38,7 @@ if(isset($_SESSION['user_id'])){
    <div class="row">
 
       <div class="image">
-         <img src="images/about-img.svg" alt="About Purna Variety">
+         <img src="images/about-img.png" alt="About Purna Variety">
       </div>
 
       <div class="content">
@@ -69,7 +69,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Jane Doe</h3>
+         <h3>Jenish Shrestha</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -82,7 +82,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Emily Smith</h3>
+         <h3>Manju Maharjan</h3>
       </div>
 
       <div class="swiper-slide slide">
@@ -95,7 +95,7 @@ if(isset($_SESSION['user_id'])){
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3>Michael Johnson</h3>
+         <h3>Dhirendra Bhatta</h3>
       </div>
 
    </div>

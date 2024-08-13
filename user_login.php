@@ -2,13 +2,19 @@
 
 include 'components/connect.php';
 
-session_start();
+// Start session only if it's not already started
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 if(isset($_SESSION['user_id'])){
    $user_id = $_SESSION['user_id'];
    header('location:home.php'); // Redirect to home if already logged in
    exit();
 }
+
+// Initialize message array
+$message = [];
 
 if(isset($_POST['submit'])){
 
@@ -55,7 +61,7 @@ if(isset($_POST['submit'])){
    <form action="" method="post">
       <h3>Login Now</h3>
       <?php
-      if(isset($message)){
+      if(!empty($message)){  // Check if there are any messages
          foreach($message as $msg){
             echo '<div class="message">'.$msg.'</div>';
          }

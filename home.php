@@ -45,33 +45,33 @@ include 'components/wishlist_cart.php';
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-1.png" alt="Smartphone Sale">
+            <img src="images/resized_image_1.jpg" alt="Pasni Sale">
          </div>
          <div class="content">
-            <span>Up to 50% Off</span>
-            <h3>Latest Smartphones</h3>
+            <span>Up to 20% Off</span>
+            <h3>Latest pasni collection</h3>
             <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-2.png" alt="Watch Sale">
+            <img src="images/resized_image_2.jpg" alt="kids clothing">
          </div>
          <div class="content">
-            <span>Up to 50% Off</span>
-            <h3>Latest Watches</h3>
+            <span>Up to 10% Off</span>
+            <h3>Latest kids item</h3>
             <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
 
       <div class="swiper-slide slide">
          <div class="image">
-            <img src="images/home-img-3.png" alt="Headsets Sale">
+            <img src="images/resized_image_3.jpg" alt="Suit">
          </div>
          <div class="content">
-            <span>Up to 50% Off</span>
-            <h3>Latest Headsets</h3>
+            <span>Up to 5% Off</span>
+            <h3>Latest baby suit</h3>
             <a href="shop.php" class="btn">Shop Now</a>
          </div>
       </div>
@@ -94,44 +94,44 @@ include 'components/wishlist_cart.php';
 
    <div class="swiper-wrapper">
 
-   <a href="category.php?category=laptop" class="swiper-slide slide">
-      <img src="images/icon-1.png" alt="Laptops">
-      <h3>Laptops</h3>
+   <a href="category.php?category=baby" class="swiper-slide slide">
+      <img src="images/babyicon.jpeg" alt="baby cloth">
+      <h3>baby cloth</h3>
    </a>
 
-   <a href="category.php?category=tv" class="swiper-slide slide">
-      <img src="images/icon-2.png" alt="TVs">
-      <h3>TVs</h3>
+   <a href="category.php?category=men" class="swiper-slide slide">
+      <img src="images/meni.png" alt="Mens">
+      <h3>Mens</h3>
    </a>
 
-   <a href="category.php?category=camera" class="swiper-slide slide">
-      <img src="images/icon-3.png" alt="Cameras">
-      <h3>Cameras</h3>
+   <a href="category.php?category=women" class="swiper-slide slide">
+      <img src="images/womeni.jpeg" alt="womens">
+      <h3>womens</h3>
    </a>
 
-   <a href="category.php?category=mouse" class="swiper-slide slide">
-      <img src="images/icon-4.png" alt="Mice">
-      <h3>Mouse</h3>
+   <a href="category.php?category=maternity" class="swiper-slide slide">
+      <img src="images/maxi.icon.png" alt="maternity">
+      <h3>maternity</h3>
    </a>
 
-   <a href="category.php?category=fridge" class="swiper-slide slide">
-      <img src="images/icon-5.png" alt="Fridges">
-      <h3>Fridge</h3>
+   <a href="category.php?category=pasni" class="swiper-slide slide">
+      <img src="images/pasniicon.png" alt="pasni">
+      <h3>pasni</h3>
    </a>
 
-   <a href="category.php?category=washing" class="swiper-slide slide">
-      <img src="images/icon-6.png" alt="Washing Machines">
-      <h3>Washing Machines</h3>
+   <a href="category.php?category=cap" class="swiper-slide slide">
+      <img src="images/capicon.png" alt="cap ">
+      <h3>cap </h3>
    </a>
 
-   <a href="category.php?category=smartphone" class="swiper-slide slide">
-      <img src="images/icon-7.png" alt="Smartphones">
-      <h3>Smartphones</h3>
+   <a href="category.php?category=cultural dress" class="swiper-slide slide">
+      <img src="images/culticon.png" alt="cultural dress">
+      <h3>cultural dress</h3>
    </a>
 
-   <a href="category.php?category=watch" class="swiper-slide slide">
-      <img src="images/icon-8.png" alt="Watches">
-      <h3>Watches</h3>
+   <a href="category.php?category=nursing dress" class="swiper-slide slide">
+      <img src="images/nursicon.png" alt="nursing dresses">
+      <h3>nursing dresses</h3>
    </a>
 
    </div>
